@@ -1,0 +1,47 @@
+#main{
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    background-image: url(https://miro.medium.com/max/838/1*WTkCAEXVl50OvbvvN3tnLQ.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+
+
+
+#hour ,#minute , #second {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour{
+ 
+    background-color: red;
+    height: 21%;
+    width: 3%;
+    top: 27%;
+    left: 49%;
+
+}
+
+#minute{
+   
+    background-color: black;
+    height: 27%;
+    width: 1%;
+    top: 21%;
+    left: 50%;
+}
+
+
+#second{
+   
+    background-color: green;
+    height: 35%;
+    width: 1%;
+    top: 13%;
+    left: 50%;
+}  
